@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>digikala gallery product</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/swiper-bundle.min.js" defer></script>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="modal-overlay hidden">
+        <div class="modal-gallery">
+          <div class="modal-head">
+            <i class="fa fa-close"></i>
+          </div>
+          <div class="divider"></div>
+          <div class="modal-body">
+            <div class="right">
+              <i id="next" class="fa fa-arrow-left"></i>
+              <img id="org-pic-gallery" src="" alt="" />
+              <i id="prev" class="fa fa-arrow-right"></i>
+            </div>
+            <div class="left">
+              <span id="title-product"> آیفون 13 پرو مکس </span>
+              <div class="other-pic-gallery">
+                <!-- <div class="image-gallery">
+                  <img src="./assets/images/p_1.jpg" alt="" />
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="org-pic-container">
+          <img id="org-pic" src="" alt="" />
+        </div>
+        <div class="other-pic">
+          <!-- <div class="image">
+            <img src="./assets/images/p_1.jpg" alt="" />
+          </div> -->
+        </div>
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="center">
+        <span id="title-product"> آیفون 13 پرو مکس </span>
+        <div class="divider"></div>
+        <span>ویژگی ها</span>
+        <ul class="future">
+          <li class="future-item">رم : 6</li>
+          <li class="future-item">پردازنده : A15</li>
+          <li class="future-item">حافظه : 256</li>
+        </ul>
+      </div>
+      <div class="left">
+        <div class="buy-box-container">
+          <span id="froshande">فروشنده</span>
+          <div class="divider"></div>
+          <span id="garanty">گارانتی اصالت و سلامت فیزیکی کالا</span>
+          <div class="divider"></div>
+          <div class="price-container">
+            <span>قیمت فروشنده</span>
+            <span>100,000,000 تومان</span>
+          </div>
+          <button class="add-to-cart-btn">افزودن به سبد خرید</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
